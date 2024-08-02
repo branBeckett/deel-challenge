@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+
+  - name: deel
+    database: DEEL_SAMPLE_DATA
+    schema: PUBLIC
+    tables:
+      - name: GLOBEPAY_ACCEPTANCE_REPORT
+      - name: GLOBEPAY_CHARGEBACK_REPORT

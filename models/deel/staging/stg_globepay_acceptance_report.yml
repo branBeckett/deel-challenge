@@ -1,0 +1,11 @@
+version: 2
+models:
+  - name: stg_globepay_acceptance_report
+    description: 'description'
+
+    columns:
+      - name: table_uuid
+        description: '{{ doc("dim_deel_xxx") }}'
+        tests:
+          - unique
+          - not_null

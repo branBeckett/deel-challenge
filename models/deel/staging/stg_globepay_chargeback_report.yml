@@ -1,0 +1,23 @@
+version: 2
+models:
+  - name: stg_globepay_chargeback_report
+    description: 'description'
+
+    columns:
+      - name: table_uuid
+        description: '{{ doc("dim_deel_xxx") }}'
+        tests:
+          - unique
+          - not_null
+
+      - name: external_ref_id
+        description: '{{ doc("dim_deel_xxx") }}'
+
+      - name: source
+        description: '{{ doc("dim_deel_xxx") }}'
+
+      - name: is_chargeback
+        description: '{{ doc("dim_deel_xxx") }}'
+
+      - name: is_active
+        description: '{{ doc("dim_deel_xxx") }}'
