@@ -1,4 +1,4 @@
-This repo contains a dbt project, production models, and all related files used to answer the following questions.
+This repo contains a dbt project, [production model](https://github.com/branBeckett/deel-challenge/blob/main/models/deel/curated/globepay_report.sql), and all related files used to answer the following questions.
 
 ## 1. Acceptance rate over time
 
